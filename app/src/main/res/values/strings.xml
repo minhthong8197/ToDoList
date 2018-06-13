@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="navbar_add_group">New Group</string>
+    <string name="menu_logout">Log out</string>
+    <string name="menu_delGroup">Delete Group</string>
+    <string name="info_repeat">Day</string>
+    <string-array name="spinner_entries">
+        <item>No repeat</item>
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+        <item>15</item>
+        <item>30</item>
+    </string-array>
+</resources>

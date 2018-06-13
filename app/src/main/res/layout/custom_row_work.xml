@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="55dp"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingHorizontal="5dp"
+    android:id="@+id/LayoutRowWork">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:button="@drawable/custom_checkbox"
+        android:gravity="center"
+        android:layout_marginHorizontal="5dp"
+        android:id="@+id/checkboxWork"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Text"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:paddingHorizontal="5dp"
+        android:gravity="center_vertical"
+        android:id="@+id/TextViewWorkTitle"
+        />
+</LinearLayout>

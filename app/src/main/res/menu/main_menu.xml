@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_sort"
+        android:title="Sort"
+        android:icon="@drawable/icon_sort"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/menu_sort_time"
+                android:title="Sort by time">
+            </item>
+            <item android:id="@+id/menu_sort_finished"
+                android:title="Sort by finished">
+            </item>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_deleteGroup"
+        android:title="@string/menu_delGroup"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/menu_logout"
+        app:showAsAction="never"
+        android:icon="@drawable/icon_logout">
+    </item>
+</menu>
